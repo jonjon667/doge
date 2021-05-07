@@ -24,7 +24,7 @@ class _AnimatedExpansibleState extends State<AnimatedExpansible>
       curve: Curves.easeInOutBack,
       child: Card(
               child: Container(
-                padding: EdgeInsets.all(5),
+                padding: EdgeInsets.all(isWidthOpen?5:10),
                 child: Column(
           crossAxisAlignment: isWidthOpen
                 ? CrossAxisAlignment.stretch

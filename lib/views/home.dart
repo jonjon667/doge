@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                             ? 'lib/assets/brankim.png'
                             : 'lib/assets/pretim.png'),
                   )),
-              Text("Selecione a raça do doguinho"),
+              Text("Selecione a raça do doguinho",style: TextStyle(fontSize:20,fontWeight: FontWeight.bold),),
               Expanded(
                 child: controller.failLoading.value
                     ? Column(
